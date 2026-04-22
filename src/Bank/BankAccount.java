@@ -16,9 +16,11 @@ public class BankAccount {
     public void withdraw(int amount) {
         if (amount<0){
             System.out.println("출금 금액이 잘못 되었습니다.");
+            return;
         }
         if (amount>balance) {
             System.out.println("잔액이 부족합니다");
+            return;
         }
         this.balance -= amount;
     }
