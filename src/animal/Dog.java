@@ -1,4 +1,4 @@
-package Animal;
+package animal;
 
 public class Dog extends Animal{
 
@@ -9,7 +9,7 @@ public class Dog extends Animal{
     @Override
     public void speak() {
         super.speak();
-        System.out.println(name + "가 멍멍 짖어요.");
+        System.out.println(name + "멍멍 짖어요.");
     }
 
 }
