@@ -1,4 +1,4 @@
-package car;
+package Car;
 
 public class ElectricCar extends Car{
 
