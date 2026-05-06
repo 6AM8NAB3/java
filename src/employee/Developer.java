@@ -1,4 +1,4 @@
-package homework_1;
+package employee;
 
 public class Developer extends Employee{
     private String language;
