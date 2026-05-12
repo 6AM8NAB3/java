@@ -1,4 +1,4 @@
-package Kiosk;
+package kiosk;
 
 public class Dessert extends KioskSystem {
     public Dessert(int price,String name) {

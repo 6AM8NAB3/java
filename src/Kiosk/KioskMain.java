@@ -1,4 +1,4 @@
-package Kiosk;
+package kiosk;
 
 public class KioskMain {
     public static void main(String[] args) {

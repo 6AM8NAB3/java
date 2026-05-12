@@ -1,4 +1,4 @@
-package Kiosk;
+package kiosk;
 
 public class KioskSystem {
     private int price;
@@ -27,10 +27,10 @@ public class KioskSystem {
     }
 
     public void description() {
-        System.out.println("매뉴의 기본 설명을 출력합니다");
+        System.out.println("메뉴의 기본 설명을 출력합니다");
     }
 
-    public static void showTotalSales() {
+    public static  void showTotalSales() {
         System.out.println("[현재까지 정산된 금액은 "+totalSales+" 원 입니다]");
     }
 }
