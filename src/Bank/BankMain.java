@@ -1,4 +1,4 @@
-package Bank;
+package bank;
 
 public class BankMain {
     public static void main(String[] args) {

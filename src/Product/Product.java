@@ -1,4 +1,4 @@
-package Product;
+package product;
 
 public class Product {
     private String name;
@@ -35,6 +35,6 @@ public class Product {
     }
 
     public static void showTotalProduction() {
-        System.out.println("현재까지 생성된 총 제품 수: "+count);
+        System.out.println("현재까지 생성된 총 제품 수: "+count+"개");
     }
 }
