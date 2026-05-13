@@ -9,10 +9,12 @@ public class KakaoPayment2  implements Payment2{
         this.userid = userid;
     }
 
+    @Override
     public void processPay(){
         System.out.println("카드 결제 진행 중.... [카드번호: "+userid+"] [금액: "+amount+"]");
     }
 
+    @Override
     public void showBasicInfo() {
         System.out.println("결제 된 금액은 "+amount+" 원 입니다.");
     }
