@@ -8,6 +8,7 @@ public class CardPayment extends Payment {
         this.cardNumber = cardNumber;
     }
 
+    @Override
     public void processPay() {
         System.out.println("카드 결제 진행 중.... [카드번호: "+cardNumber+"] [금액: "+amount+"]");
     }
