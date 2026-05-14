@@ -1,4 +1,7 @@
 package Smart_Home_Control;
 
-public class RemoteControl {
+interface RemoteControl {
+    void turnOn();
+    void turnOff();
+    void setVolume(int volume);
 }
