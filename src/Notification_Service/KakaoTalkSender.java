@@ -9,6 +9,6 @@ public class KakaoTalkSender implements MessageSender{
 
     @Override
     public void sendMessage(String message) {
-        System.out.println("카톡 알림톡 전송중... / 내용: "+message);
+        System.out.println("카톡 알림톡 전송중... / 내용: "+message+"\n");
     }
 }

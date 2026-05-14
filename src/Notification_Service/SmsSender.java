@@ -9,6 +9,6 @@ public class SmsSender implements MessageSender{
 
     @Override
     public void sendMessage(String message) {
-        System.out.println("sms 문자 메세지 전송중... / 내용: "+message);
+        System.out.println("sms 문자 메세지 전송중... / 내용: "+message+"\n");
     }
 }
