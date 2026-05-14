@@ -9,6 +9,6 @@ public class EmailSender implements MessageSender{
 
     @Override
     public void sendMessage(String message) {
-        System.out.println("이메일 발송중... / 내용: "+messageㅌㄴ);
+        System.out.println("이메일 발송중... / 내용: "+message);
     }
 }
