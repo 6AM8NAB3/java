@@ -9,6 +9,10 @@ public class SmsSender implements MessageSender{
 
     @Override
     public void sendMessage(String message) {
+<<<<<<< HEAD
         System.out.println("sms 문자 메세지 전송중... / 내용: "+message+"\n");
+=======
+        System.out.println("sms 문자 메세지 전송중... / 내용: "+message);
+>>>>>>> origin/main
     }
 }
